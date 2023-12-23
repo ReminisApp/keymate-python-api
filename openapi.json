@@ -26,7 +26,7 @@
             "name": "percentile",
             "in": "query",
             "description": "Start it as '3', increase to '6' if ResponseTooLarge occurs, only reduce to '1' or '2' if user requests it.",
-            "required": true,
+            "required": "true",
             "schema": {
               "type": "string"
             },
