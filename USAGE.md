@@ -1,8 +1,8 @@
 <!-- Start SDK Example Usage [usage] -->
 ```python
-import keymate_api
+import sdk
 
-s = keymate_api.KeymateAPI()
+s = sdk.SDK()
 
 
 res = s.insertionplan("<YOUR_BEARER_TOKEN_HERE>", q='<value>')
